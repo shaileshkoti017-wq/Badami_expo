@@ -1,0 +1,10 @@
+{
+  "name": "Remix Badami Circuit AI Guide",
+  "description": "AI-powered tourist companion for the Badami–Aihole–Pattadakal heritage circuit featuring monument recognition, Grad-CAM stone damage detection, and smart crowd planning.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

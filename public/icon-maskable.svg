@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c2a1f" />
+      <stop offset="50%" stop-color="#43231b" />
+      <stop offset="100%" stop-color="#2c2018" />
+    </linearGradient>
+    <linearGradient id="goldGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5cf70" />
+      <stop offset="50%" stop-color="#d9a441" />
+      <stop offset="100%" stop-color="#aa791c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Scaled inside 80% safe area -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <!-- Sun / Halo behind Shikhara -->
+    <circle cx="256" cy="220" r="130" fill="#d9a441" fill-opacity="0.15" />
+    
+    <!-- Shikhara Finial / Kalasha -->
+    <path d="M256 72 L262 96 L256 102 L250 96 Z" fill="url(#goldGradMask)" />
+    <circle cx="256" cy="112" r="10" fill="url(#goldGradMask)" />
+
+    <!-- Tier 1 -->
+    <path d="M228 140 L284 140 L292 164 L220 164 Z" fill="url(#goldGradMask)" />
+    <!-- Tier 2 -->
+    <path d="M208 170 L304 170 L316 204 L196 204 Z" fill="url(#goldGradMask)" />
+    <!-- Tier 3 -->
+    <path d="M184 210 L328 210 L344 250 L168 250 Z" fill="url(#goldGradMask)" />
+
+    <!-- Heavy Lintel -->
+    <rect x="136" y="258" width="240" height="24" rx="5" fill="url(#goldGradMask)" />
+
+    <!-- Rock Pillars -->
+    <path d="M152 282 L172 282 L168 360 L148 360 Z" fill="url(#goldGradMask)" />
+    <path d="M216 282 L236 282 L234 360 L214 360 Z" fill="url(#goldGradMask)" />
+    <path d="M276 282 L296 282 L298 360 L278 360 Z" fill="url(#goldGradMask)" />
+    <path d="M340 282 L360 282 L364 360 L344 360 Z" fill="url(#goldGradMask)" />
+
+    <!-- Sanctum darkness & Linga -->
+    <path d="M176 282 L336 282 L336 360 L176 360 Z" fill="#1b120c" />
+    <ellipse cx="256" cy="336" rx="22" ry="12" fill="url(#goldGradMask)" />
+    <path d="M246 336 C246 312 266 312 266 336 Z" fill="url(#goldGradMask)" />
+
+    <!-- Plinth -->
+    <rect x="120" y="372" width="272" height="22" rx="4" fill="url(#goldGradMask)" />
+    <rect x="100" y="394" width="312" height="18" rx="4" fill="url(#goldGradMask)" />
+
+    <text x="256" y="446" text-anchor="middle" fill="#ffffff" font-family="'Cinzel', serif, system-ui" font-size="28" font-weight="700" letter-spacing="6">BADAMI AI</text>
+    <text x="256" y="474" text-anchor="middle" fill="#d9a441" font-family="system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="4">HERITAGE GUIDE</text>
+  </g>
+</svg>

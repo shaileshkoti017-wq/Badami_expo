@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c2a1f" />
+      <stop offset="50%" stop-color="#43231b" />
+      <stop offset="100%" stop-color="#2c2018" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5cf70" />
+      <stop offset="50%" stop-color="#d9a441" />
+      <stop offset="100%" stop-color="#aa791c" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Outer Rim -->
+  <rect x="16" y="16" width="480" height="480" rx="92" fill="none" stroke="#d9a441" stroke-width="4" stroke-opacity="0.35" />
+
+  <!-- Central Emblem: Chalukya Rock-Cut Cave & Temple Shikhara -->
+  <g filter="url(#shadow)" transform="translate(0, 0)">
+    
+    <!-- Sun / Halo behind Shikhara -->
+    <circle cx="256" cy="220" r="130" fill="#d9a441" fill-opacity="0.12" />
+    
+    <!-- Shikhara Finial / Kalasha & Trishula/Chakra -->
+    <path d="M256 72 L262 96 L256 102 L250 96 Z" fill="url(#goldGrad)" />
+    <circle cx="256" cy="112" r="10" fill="url(#goldGrad)" />
+    <path d="M246 120 C246 120 252 128 256 128 C260 128 266 120 266 120 L272 136 L240 136 Z" fill="url(#goldGrad)" />
+
+    <!-- Tiered Vimana (Dravida / Nagara Hybrid) -->
+    <!-- Tier 1 (Top Amalaka / Cap) -->
+    <path d="M228 140 L284 140 L292 164 L220 164 Z" fill="url(#goldGrad)" />
+    <rect x="238" y="146" width="36" height="12" rx="4" fill="#2c2018" fill-opacity="0.4" />
+
+    <!-- Tier 2 -->
+    <path d="M208 170 L304 170 L316 204 L196 204 Z" fill="url(#goldGrad)" />
+    <circle cx="256" cy="187" r="8" fill="#2c2018" fill-opacity="0.4" />
+    <circle cx="226" cy="187" r="6" fill="#2c2018" fill-opacity="0.4" />
+    <circle cx="286" cy="187" r="6" fill="#2c2018" fill-opacity="0.4" />
+
+    <!-- Tier 3 -->
+    <path d="M184 210 L328 210 L344 250 L168 250 Z" fill="url(#goldGrad)" />
+    <rect x="242" y="222" width="28" height="20" rx="3" fill="#2c2018" fill-opacity="0.4" />
+    <rect x="198" y="224" width="24" height="18" rx="3" fill="#2c2018" fill-opacity="0.4" />
+    <rect x="290" y="224" width="24" height="18" rx="3" fill="#2c2018" fill-opacity="0.4" />
+
+    <!-- Cave Temple Arch / Mandapa Façade -->
+    <!-- Heavy Lintel -->
+    <rect x="136" y="258" width="240" height="24" rx="5" fill="url(#goldGrad)" />
+    <line x1="140" y1="270" x2="372" y2="270" stroke="#2c2018" stroke-width="2" stroke-opacity="0.5" />
+
+    <!-- Rock Pillars (Badami Cave Facade) -->
+    <!-- Pillar 1 Left -->
+    <path d="M152 282 L172 282 L168 360 L148 360 Z" fill="url(#goldGrad)" />
+    <rect x="144" y="360" width="32" height="12" rx="2" fill="url(#goldGrad)" />
+    
+    <!-- Pillar 2 Center-Left -->
+    <path d="M216 282 L236 282 L234 360 L214 360 Z" fill="url(#goldGrad)" />
+    <rect x="210" y="360" width="30" height="12" rx="2" fill="url(#goldGrad)" />
+
+    <!-- Pillar 3 Center-Right -->
+    <path d="M276 282 L296 282 L298 360 L278 360 Z" fill="url(#goldGrad)" />
+    <rect x="272" y="360" width="30" height="12" rx="2" fill="url(#goldGrad)" />
+
+    <!-- Pillar 4 Right -->
+    <path d="M340 282 L360 282 L364 360 L344 360 Z" fill="url(#goldGrad)" />
+    <rect x="336" y="360" width="32" height="12" rx="2" fill="url(#goldGrad)" />
+
+    <!-- Inner Sanctum Darkness with Golden Shiva Linga / Nataraja Silhouette -->
+    <path d="M176 282 L336 282 L336 360 L176 360 Z" fill="#1b120c" />
+    <ellipse cx="256" cy="336" rx="22" ry="12" fill="url(#goldGrad)" />
+    <path d="M246 336 C246 312 266 312 266 336 Z" fill="url(#goldGrad)" />
+
+    <!-- Temple Platform Plinth (Adhisthana) -->
+    <rect x="120" y="372" width="272" height="22" rx="4" fill="url(#goldGrad)" />
+    <rect x="100" y="394" width="312" height="18" rx="4" fill="url(#goldGrad)" />
+
+    <!-- Sparkle / AI Element -->
+    <path d="M382 120 Q394 120 394 108 Q394 120 406 120 Q394 120 394 132 Q394 120 382 120 Z" fill="#fff" />
+    <path d="M106 174 Q116 174 116 164 Q116 174 126 174 Q116 174 116 184 Q116 174 106 174 Z" fill="#fff" />
+  </g>
+
+  <!-- Typography: BADAMI CIRCUIT -->
+  <text x="256" y="446" text-anchor="middle" fill="#ffffff" font-family="'Cinzel', serif, system-ui" font-size="28" font-weight="700" letter-spacing="6">BADAMI AI</text>
+  <text x="256" y="474" text-anchor="middle" fill="#d9a441" font-family="system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="4">HERITAGE GUIDE</text>
+</svg>
